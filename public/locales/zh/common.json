@@ -1,0 +1,89 @@
+{
+  "home": {
+    "title": "欢迎使用 Next.js 国际化演示",
+    "description": "这是一个使用 App Router 的 Next.js 国际化演示。您可以在英文和中文之间切换。",
+    "features": {
+      "title": "功能特点",
+      "items": [
+        {
+          "title": "国际化",
+          "description": "支持多语言动态路由"
+        },
+        {
+          "title": "主题切换",
+          "description": "在明亮和暗黑主题之间切换"
+        },
+        {
+          "title": "App Router",
+          "description": "使用 Next.js App Router 获得更好的性能"
+        }
+      ]
+    }
+  },
+  "nav": {
+    "language": "语言",
+    "theme": "主题",
+    "home": "首页",
+    "about": "关于我们",
+    "blog": "博客"
+  },
+  "about": {
+    "title": "关于我们",
+    "introduction": "我们是一支充满激情的开发团队，致力于使用最新的网络技术创建创新解决方案。",
+    "mission": {
+      "title": "我们的使命",
+      "description": "我们的使命是构建高质量、易于访问且性能卓越的网络应用程序，在所有设备和平台上提供卓越的用户体验。"
+    },
+    "team": {
+      "title": "我们的团队",
+      "description": "认识那些使我们公司变得伟大的人才。",
+      "members": [
+        {
+          "name": "约翰·多伊",
+          "role": "创始人兼首席执行官",
+          "bio": "约翰在网络开发方面拥有超过15年的经验，并且自React早期就开始使用它。"
+        },
+        {
+          "name": "简·史密斯",
+          "role": "首席技术官",
+          "bio": "简是一名全栈开发人员，擅长Next.js、TypeScript和无服务器架构。"
+        },
+        {
+          "name": "迈克·约翰逊",
+          "role": "首席设计师",
+          "bio": "迈克将他对设计的热情与技术知识相结合，创造出美观且功能强大的用户界面。"
+        }
+      ]
+    }
+  },
+  "blog": {
+    "title": "博客",
+    "description": "阅读我们关于网络开发、设计和技术的最新文章。",
+    "readMore": "阅读更多",
+    "backToBlog": "返回博客",
+    "postNotFound": "未找到博客文章",
+    "posts": [
+      {
+        "slug": "getting-started-with-nextjs",
+        "title": "Next.js 入门指南",
+        "date": "2023年4月20日",
+        "excerpt": "学习如何使用 Next.js（一个 React 框架）构建现代 Web 应用程序。",
+        "content": "<p>Next.js 是一个 React 框架，它提供了许多额外的功能，包括服务器端渲染和生成静态网站。</p><p>Next.js 通过处理 React 所需的工具和配置，并添加优化应用程序的附加功能，为 React 的主要限制提供了解决方案。</p><h2>为什么选择 Next.js？</h2><p>以下是您可能想要在下一个项目中使用 Next.js 的一些原因：</p><ul><li>服务器端渲染</li><li>静态站点生成</li><li>自动代码分割</li><li>客户端路由</li><li>API 路由</li><li>内置 CSS 和 Sass 支持</li></ul>"
+      },
+      {
+        "slug": "internationalization-in-nextjs",
+        "title": "Next.js 中的国际化",
+        "date": "2023年5月15日",
+        "excerpt": "学习如何在 Next.js 应用程序中实现国际化。",
+        "content": "<p>国际化（i18n）是为不同语言和地区设计和准备应用程序的过程。Next.js 内置了对国际化路由和语言检测的支持。</p><h2>在 Next.js 中设置 i18n</h2><p>要在 Next.js 中设置国际化，您需要：</p><ol><li>定义支持的语言</li><li>创建中间件来处理语言检测和路由</li><li>在特定语言的字典中组织您的内容</li><li>创建语言切换器组件</li></ol><p>通过这些步骤，您可以创建一个完全国际化的 Next.js 应用程序，支持多种语言和地区。</p>"
+      },
+      {
+        "slug": "using-shadcn-ui-with-nextjs",
+        "title": "在 Next.js 中使用 shadcn/ui",
+        "date": "2023年6月10日",
+        "excerpt": "学习如何使用 shadcn/ui 在 Next.js 中构建漂亮的用户界面。",
+        "content": "<p>shadcn/ui 是使用 Radix UI 和 Tailwind CSS 构建的可重用组件集合。它不是一个组件库，而是一个可以复制粘贴到您的应用程序中的可重用组件集合。</p><h2>shadcn/ui 入门</h2><p>要在 Next.js 项目中使用 shadcn/ui：</p><ol><li>在项目中设置 Tailwind CSS</li><li>添加必要的依赖项</li><li>配置项目以使用 shadcn/ui</li><li>开始向项目添加组件</li></ol><p>shadcn/ui 为在 Next.js 应用程序中构建漂亮、可访问的用户界面提供了一个很好的起点。</p>"
+      }
+    ]
+  }
+}
